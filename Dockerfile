@@ -3,7 +3,7 @@ FROM python:3.9.5
 LABEL maintainer="fehren"
 
 WORKDIR /home
-RUN python -m pip install Django
+RUN python -m pip install Django django-mathfilters
 
 EXPOSE 8000/tcp
 
